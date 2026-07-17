@@ -1,0 +1,18 @@
+# Simulation outputs
+*.vcd
+*.out
+a.out
+fifo_sim
+
+# GTKWave save files
+*.gtkw
+
+# Editor files
+*~
+*.swp
+
+# Yosys/OpenLane outputs
+results/
+logs/
+reports/
+temp/
