@@ -1,18 +1,24 @@
-# Simulation outputs
+# Simulation artifacts
 *.vcd
-*.out
 a.out
 fifo_sim
 
-# GTKWave save files
+# GTKWave
 *.gtkw
 
-# Editor files
-*~
-*.swp
+# Generated synthesis graphs (optional)
+*.dot
 
-# Yosys/OpenLane outputs
-results/
-logs/
-reports/
-temp/
+# OpenLane generated data
+openlane/runs/
+
+# Editor files
+.vscode/
+*.swp
+*.tmp
+
+# Python
+__pycache__/
+
+# OS
+.DS_Store

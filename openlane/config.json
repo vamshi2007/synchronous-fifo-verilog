@@ -1,0 +1,14 @@
+{
+    "DESIGN_NAME": "fifo",
+
+    "VERILOG_FILES": [
+        "dir::src/fifo.v",
+        "dir::src/fifo_controller.v",
+        "dir::src/fifo_memory.v"
+    ],
+
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+
+    "FP_PDN_MULTILAYER": true
+}

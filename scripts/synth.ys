@@ -1,0 +1,11 @@
+read_verilog rtl/fifo_memory.v
+read_verilog rtl/fifo_controller.v
+read_verilog rtl/fifo.v
+
+hierarchy -top fifo
+
+proc
+opt
+memory
+flatten
+techmap
