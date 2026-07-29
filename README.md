@@ -176,7 +176,7 @@ fifo-rtl-to-gds/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/fifo-rtl-to-gds.git
+git clone https://github.com/vamshi2007/fifo-rtl-to-gds.git
 cd fifo-rtl-to-gds
 ```
 
